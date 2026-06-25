@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale= 1.0">
+        <meta name="description" content="Sites touristiques de Bobo-Dioulasso - Patrimoine, Réservation et Galerie">
+        <title>Tourisme à Bobo-Dioulasso</title>
+        <link rel="stylesheet" href="./css/Style.css">
+    </head>
+    <body>
+        <header>
+            <img src="./Images/Logo de la ville de bobo Dioulasso.webp" 
+            alt="Logo de la ville" width="150" height="auto">
+            <h1>Bienvenue à Bobo-Dioulasso</h1>
+        </header>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="patrimoine.html">Patrimoine</a>
+            <a href="reservation.html">Réservation d'hôtel</a>
+            <a href="galerie.html">Galerie</a>
+        </nav>
+        <section>
+            <h2>Réservez votre séjour</h2>
+            <form>
+                <label>Nom :</label>
+                <input type="text" name="nom" placeholder="Votre nom" autocomplete="family-name" required><br>
+
+                <label>Prénom :</label>
+                <input type="text" name="prenom" placeholder="Votre prénom" autocomplete="given-name" required><br>
+
+                <label>Email :</label>
+                <input type="email" name="email" placeholder="exemple@domaine.com" autocomplete="email" required><br>
+
+                <label>Téléphone :</label>
+                <input type="tel" name="telephone" placeholder="06 12 34 56 78" autocomplete="tel"><br>
+
+                <label>Date d’arrivée :</label>
+                <input type="date" name="arrivee" autocomplete="on" required><br>
+
+                <label>Date de départ :</label>
+                <input type="date" name="depart" autocomplete="on" required><br>
+
+                <label>Type de chambre :</label>
+                <select name="chambre">
+                <option>Simple</option>
+                <option>Double</option>
+                <option>Suite</option>
+                </select><br>
+
+                <label>Nombre de personnes :</label>
+                <input type="number" name="personnes" min="1" max="10"><br>
+
+                <button type="submit">Réserver</button>
+            </form>
+        </section>
+
+    </body>
+</HTml>
